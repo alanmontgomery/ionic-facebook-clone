@@ -19,14 +19,6 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-secondary-shade: #36abe0;
   --ion-color-secondary-tint: #50c8ff;
 
-  /** tertiary **/
-  --ion-color-tertiary: #5260ff;
-  --ion-color-tertiary-rgb: 82, 96, 255;
-  --ion-color-tertiary-contrast: #ffffff;
-  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
-  --ion-color-tertiary-shade: #4854e0;
-  --ion-color-tertiary-tint: #6370ff;
-
   /** success **/
   --ion-color-success: #2dd36f;
   --ion-color-success-rgb: 45, 211, 111;
@@ -50,6 +42,14 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-danger-contrast-rgb: 255, 255, 255;
   --ion-color-danger-shade: #cf3c4f;
   --ion-color-danger-tint: #ed576b;
+
+  /** purple **/
+  --ion-color-tertiary: #894eb1;
+  --ion-color-tertiary-rgb: 235, 68, 90;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #6f00b9;
+  --ion-color-tertiary-tint: #8633bd;
 
   /** dark **/
   --ion-color-dark: #222428;
@@ -76,7 +76,7 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-tint: #f5f6f9;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark1) {
   /*
    * Dark Colors
    * -------------------------------------------
@@ -234,3 +234,119 @@ http://ionicframework.com/docs/theming/ */
     --ion-card-background: #1e1e1e;
   }
 }
+
+ion-header,
+ion-toolbar {
+
+  border-bottom: none !important;
+  --border-color: white;
+}
+
+ion-title {
+
+  --color: rgb(48, 48, 58);
+}
+
+ion-tab-bar {
+
+  border-top: none;
+}
+
+ion-tab-button {
+
+  --color: rgb(211, 211, 211);
+  height: 2rem;
+}
+
+.tab-selected,
+ion-icon.search {
+
+  color: rgb(88, 88, 88) !important;
+}
+
+.avatar {
+
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.online {
+
+  height: 20px;
+  width: 20px;
+  border-radius: 500px;
+  border: 3px solid white;
+  background-color: green;
+  z-index: 9999;
+  position: absolute;
+  margin-left: 2.5rem;
+  margin-top: 1.2rem;
+}
+
+.contact-details {
+
+  margin-top: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.stats {
+
+  margin-top: -1rem;
+  margin-right: 0.5rem;
+}
+
+.last-online {
+
+  color: rgb(190, 190, 190);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.stats ion-badge {
+
+  margin: 0 !important;
+  margin-top: -3rem !important;
+  border-radius: 2px !important;
+}
+
+
+
+.contact-details h1 {
+
+  font-size: 1.2rem;
+}
+
+.contact-details p {
+
+  font-size: 0.8rem;
+}
+
+.message-item {
+
+  padding-top: 1.5rem;
+}
+
+.profile-avatar {
+
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 500px !important;
+}
+
+.profile-name {
+
+  color:#c8c8c8;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  margin-left: 0.5rem;
+}
+
+.add-fab {
+
+  opacity: 0.7;
+}
+
+/*  */

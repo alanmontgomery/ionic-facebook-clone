@@ -1,0 +1,367 @@
+.timeline-toolbar {
+
+    display: flex;
+    flex-direction: row !important;
+}
+
+.toolbar-title {
+
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+
+.toolbar-icons {
+
+    margin-right: 0.5rem;
+    background-color: white;
+}
+
+.toolbar-icons ion-icon {
+
+    color: black;
+    background-color:rgb(235, 235, 235);
+    border-radius: 500px;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+}
+
+.second-toolbar {
+
+    border-bottom: 0.1px solid rgb(144, 144, 144);
+    padding-top: 0.75rem;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.second-toolbar ion-col ion-icon {
+
+    font-size: 1.75rem;
+    color: rgb(138, 138, 138);
+}
+
+.second-toolbar ion-col ion-icon.selected {
+
+    /* border-bottom: 5px solid var(--ion-color-primary); */
+}
+
+.selected-icon {
+
+    border-bottom: 1.5px solid var(--ion-color-primary);
+}
+
+.top-input-container {
+
+    border-bottom: 0.1px solid rgb(200, 200, 200);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+    margin-top: 3.5rem;
+}
+
+.top-input {
+
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 25px;
+    padding-left: 1rem !important;
+    height: 2.2rem;
+}
+
+.below-input-label-container {
+
+    border-bottom: 1px solid rgb(185, 185, 185);
+    background-color: white;
+}
+
+.below-input-label {
+
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.below-input-label:not(:last-child) {
+
+    border-right: 1px solid rgb(167, 167, 167);
+}
+
+.below-input-label ion-text {
+
+    color: rgb(114, 114, 114);
+    font-size: 0.8rem;
+    font-weight: 700 !important;
+    margin-left: 1.7rem;
+}
+
+.below-input-label ion-icon {
+
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    position: absolute;
+}
+
+.timeline-bg {
+
+    --background:rgb(218, 218, 218) !important;
+}
+
+.rooms-container {
+
+    background-color: white;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1px solid rgb(144, 144, 144);
+    border-top: 0.1px solid rgb(144, 144, 144);
+}
+
+.rooms-people-container {
+
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.rooms-people-container div {
+
+    margin-top: 0.4rem !important;
+    margin-right: 1rem !important;
+}
+
+.rooms-create {
+
+    border: 1px solid rgb(149, 225, 255);
+    border-radius: 70px;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0.2rem !important;
+    
+}
+
+.rooms-create ion-icon {
+
+    font-size: 1.5rem !important;
+    margin-left: 0.5rem !important;
+    margin-top: 0.3rem !important;
+    float: left !important;
+}
+
+.rooms-create ion-text {
+
+    font-size: 0.7rem !important;
+    color:rgb(136, 136, 136) !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: -1rem !important;
+}
+
+.rooms-online {
+
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 500px !important;
+    border: 3px solid white !important;
+    background-color: green !important;
+    z-index: 9999 !important;
+    position: absolute !important;
+    margin-left: 0.5rem !important;
+    margin-top: -1rem !important;
+}
+
+.post {
+
+    margin-top: 0.5rem !important;
+}
+
+.post-container {
+
+    background-color: white !important;
+}
+
+.post-header {
+
+    /* padding: none !important; */
+    /* margin: none !important; */
+}
+
+.post-header {
+
+    padding-top: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    z-index: 9999;
+}
+
+.post-header ion-avatar {
+
+    /* border: 2px solid rgb(164, 222, 255); */
+}
+
+.post-header ion-label {
+
+    margin-left: 0.5rem !important;
+    z-index: 99999 !important;
+}
+
+.post-header ion-label h3 {
+
+    font-weight: 500 !important;
+}
+
+.post-header ion-label p ion-icon {
+
+    position: absolute !important;
+    margin-top: 0.15rem !important;
+}
+
+.post-header ion-icon {
+
+    color: rgb(133, 133, 133) !important;
+}
+
+.post-content {
+
+    padding-left: 0.5rem !important;
+    margin-top: -0.7rem !important;
+}
+
+.post-link {
+
+    padding-left: 0.5rem !important;
+    background-color: rgb(245, 245, 245) !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+}
+
+.post-link ion-button {
+
+    margin-right: 0.5rem !important;
+    --background: rgb(245, 245, 245) !important;
+    border: 1px solid rgb(98, 98, 98) !important;
+    border-radius: 8px !important;
+    color: rgb(98, 98, 98) !important;
+    text-transform: uppercase !important;
+    font-size: 0.8rem !important;
+}
+
+.post-likes {
+
+    padding-left: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.post-like-icons {
+
+    margin-top: 0.2rem !important;
+}
+
+.post-likes ion-icon:not(:last-child) {
+
+    background-color: rgb(70, 128, 255) !important;
+}
+
+.post-likes ion-icon:last-child {
+
+    background-color: rgb(255, 76, 76) !important;
+    margin-left: -0.5rem !important;
+}
+
+.post-likes ion-icon {
+
+    color: white !important;
+    border-radius: 100px !important;
+    padding: 0.2rem !important;
+    border: 2px solid white !important;
+}
+
+.post-likes p {
+
+    padding: none !important;
+    margin: none !important;
+    margin-top: 0.4rem !important;
+    font-size: 0.8rem !important;
+    margin-right: 0.5rem !important;
+    color: rgb(156, 156, 156) !important;
+    
+}
+
+.post-image {
+
+    padding: none !important;
+    margin: none !important;
+}
+
+.post-image ion-img {
+
+    width: 100% !important;
+}
+
+.post-content p {
+
+    font-size: 1rem !important;
+}
+
+.post-actions {
+
+    background-color: white !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    border-top: 0.1px solid rgb(228, 228, 228) !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.2rem !important;
+}
+
+.post-actions ion-col {
+
+    margin-left: -1rem !important;
+}
+
+.post-actions ion-col:first-child {
+
+    margin-right: -2rem !important;
+}
+
+.post-actions ion-col:last-child {
+
+    margin-right: 2rem !important;
+}
+
+.post-actions ion-col ion-icon {
+
+    font-size: 1.4rem !important;
+    color:rgb(105, 105, 105) !important;
+}
+
+.post-actions ion-col ion-text {
+
+    font-size: 0.8rem !important;
+    color: rgb(107, 107, 107) !important;
+    margin-top: 0.2rem !important;
+    margin-left: 0.5rem !important;
+    position: absolute !important;
+}
+
+/* 
+<div className="timeline-toolbar">
+						<p className="timeline-logo">ionicbook</p>
+
+						<div className="timeline-toolbar-icons">
+							<IonIcon icon={ searchOutline } />
+							<IonIcon icon={ chatboxOutline } />
+						</div>
+					</div> */
