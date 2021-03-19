@@ -129,6 +129,12 @@
     width: 70%;
 }
 
+.rooms-people-container ion-avatar {
+
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
 .rooms-people-container div {
 
     margin-top: 0.4rem !important;
@@ -165,15 +171,15 @@
 
 .rooms-online {
 
-    height: 20px !important;
-    width: 20px !important;
+    height: 13px !important;
+    width: 13px !important;
     border-radius: 500px !important;
-    border: 3px solid white !important;
+    border: 2px solid white !important;
     background-color: green !important;
     z-index: 9999 !important;
     position: absolute !important;
     margin-left: 0.5rem !important;
-    margin-top: -1rem !important;
+    margin-top: -0.8rem !important;
 }
 
 .post {
@@ -212,7 +218,7 @@
 
 .post-header ion-label h3 {
 
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 }
 
 .post-header ion-label p ion-icon {
