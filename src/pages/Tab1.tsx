@@ -1,4 +1,4 @@
-import { IonAvatar, IonBadge, IonButton, IonButtons, IonContent, IonFab, IonFabButton, IonHeader, IonIcon, IonImg, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonAvatar, IonBackButton, IonBadge, IonButton, IonButtons, IonContent, IonFab, IonFabButton, IonHeader, IonIcon, IonImg, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { addOutline, searchOutline } from 'ionicons/icons';
 import ExploreContainer from '../components/ExploreContainer';
 import { messages } from '../main/messages';
@@ -12,6 +12,7 @@ const Tab1 = () => {
 				<IonToolbar>
 					<IonTitle>Messages</IonTitle>
 					<IonButtons slot="start">
+						<IonBackButton text=" " defaultHref="/timeline" />
 						<IonButton slot="start">
 							<img className="profile-avatar" src="https://pbs.twimg.com/profile_images/1349059994747076610/8dWvipvu_400x400.jpg" />
 						</IonButton>

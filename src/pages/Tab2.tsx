@@ -1,4 +1,4 @@
-import { IonAvatar, IonButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonImg, IonInput, IonItem, IonLabel, IonPage, IonRow, IonSearchbar, IonText, IonTitle, IonToolbar } from '@ionic/react';
+import { IonAvatar, IonButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonImg, IonInput, IonItem, IonLabel, IonPage, IonRouterLink, IonRow, IonSearchbar, IonText, IonTitle, IonToolbar } from '@ionic/react';
 import { searchOutline, chatboxOutline, playCircleOutline, bagOutline, homeOutline, menuOutline, flagOutline, notificationsOutline, homeSharp, home, videocam, images, globe, ellipse, ellipsisHorizontal, thumbsUp, heart, thumbsUpOutline, shareOutline, arrowRedoOutline  } from "ionicons/icons";
 import ExploreContainer from '../components/ExploreContainer';
 import Post from '../components/Post';
@@ -16,7 +16,9 @@ const Tab2 = () => {
 
 					<IonButtons slot="end" className="toolbar-icons">
 						<IonIcon icon={ searchOutline } />
-						<IonIcon icon={ chatboxOutline } />
+						<IonRouterLink routerLink="/tabs/tab1">
+							<IonIcon icon={ chatboxOutline } />
+						</IonRouterLink>
 					</IonButtons>
 				</IonToolbar>
 			</IonHeader>
