@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "messenger",
+  "appName": "ionic-facebook-clone",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
